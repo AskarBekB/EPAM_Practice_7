@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Browser App</string>
+    <string name="search">Search</string>
+    <string name="web_link">Web link</string>
+</resources>
