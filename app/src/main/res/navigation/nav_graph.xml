@@ -6,14 +6,14 @@
 
     <fragment
         android:id="@+id/contactsListViewFragment"
-        android:name="com.example.contactapp.ContactsListViewFragment"
+        android:name="dev.androidbroadcast.contactapp.ContactsListViewFragment"
         android:label="ListView"
-        tools:layout="@layout/fragment_contacts_list_view" />
+        tools:layout="@layout/list_view_fragment" />
 
     <fragment
         android:id="@+id/contactsRecyclerViewFragment"
-        android:name="com.example.contactapp.ContactsRecyclerViewFragment"
+        android:name="dev.androidbroadcast.contactapp.ContactsRecyclerViewFragment"
         android:label="RecyclerView"
-        tools:layout="@layout/fragment_contacts_recycler_view" />
+        tools:layout="@layout/recycler_view_fragment"/>
 
 </navigation>
