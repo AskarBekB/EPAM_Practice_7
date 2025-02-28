@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_list_view">
+
+    <fragment
+        android:id="@+id/contactsListViewFragment"
+        android:name="com.example.contactapp.ContactsListViewFragment"
+        android:label="ListView"
+        tools:layout="@layout/fragment_contacts_list_view" />
+
+    <fragment
+        android:id="@+id/contactsRecyclerViewFragment"
+        android:name="com.example.contactapp.ContactsRecyclerViewFragment"
+        android:label="RecyclerView"
+        tools:layout="@layout/fragment_contacts_recycler_view" />
+
+</navigation>
